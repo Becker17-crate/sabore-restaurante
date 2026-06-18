@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+    margin: 0;
+}
+
+header {
+    background: #d62828;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #d62828;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
