@@ -61,7 +61,7 @@ function About() {
                         {/* CAMBIA LA IMAGEN CUANDO QUIERAS */}
 
                         <img
-                            src="/logo-restaurante.png"
+                            src={`${import.meta.env.BASE_URL}logo-restaurante.png`}
                             alt="SABORÉ Restaurante"
                         />
 
@@ -150,10 +150,10 @@ function About() {
 
                 <div className="gallery-grid">
 
-                    <img src="/res1.png" alt="" />
-                    <img src="/coci1.png" alt="" />
-                    <img src="/personal1.png" alt="" />
-                    <img src="/reser1.png" alt="" />
+                    <img src={`${import.meta.env.BASE_URL}res1.png`} alt="" />
+                    <img src={`${import.meta.env.BASE_URL}coci1.png`} alt="" />
+                    <img src={`${import.meta.env.BASE_URL}personal1.png`} alt="" />
+                    <img src={`${import.meta.env.BASE_URL}reser1.png`} alt="" />
 
                 </div>
 

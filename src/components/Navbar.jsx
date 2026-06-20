@@ -14,12 +14,10 @@ function Navbar() {
 
     <header className="navbar">
 
-      <div className="logo">
-        <img
-          src="/logo-restaurante.png"
-          alt="SABORÉ RESTAURANTE"
-        />
-      </div>
+      <img
+        src={`${import.meta.env.BASE_URL}logo-restaurante.png`}
+        alt="SABORÉ RESTAURANTE"
+      />
 
       <nav>
         <ul className="nav-menu">
